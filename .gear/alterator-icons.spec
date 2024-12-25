@@ -11,7 +11,6 @@ Url:     https://github.com/LenkaDEA/alterator-icons
 BuildArch: noarch
 Source: %name-%version.tar
 
-
 BuildRequires(pre): rpm-macros-alterator
 
 %description
@@ -29,6 +28,7 @@ cp -R %name/* %buildroot%_alterator_datadir/icons
 %doc LICENSE.md README.md
 %_alterator_datadir/icons/alterator
 
-
-
+%changelog
+* Wed Dec 25 2024 Elena Dyatlenko <lenka@altlinux.org> 0.1-alt1
+- Create icons for alterator applications
 
